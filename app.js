@@ -4,7 +4,6 @@ const mayoresA10 = numeros.filter((e) => e >  10);
 console.log("Numeros: " + numeros);
 console.log("Mayores a 10: " + mayoresA10);
 
-
 const numerosX10 = numeros.map((e) => e * 10);
 console.log("Numeros * 10: " + numerosX10);
 
