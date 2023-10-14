@@ -7,3 +7,16 @@ console.log("todos: " + numeros);
 const numerosX10 = numeros.map((e) => e * 10);
 console.log("nuevo array: " + numerosX10);
 console.log("todos: "+ numeros);
+
+function nroMasGrande(array) {
+    let nroMasGrande = array[0];
+    for (let i = 1; i < array.length; i ++){
+        if (array[i] > nroMasGrande ){
+            nroMasGrande = array[i];
+        }
+    }
+    return nroMasGrande
+}
+
+const resultado = nroMasGrande(numeros);
+console.log(resultado);
