@@ -1,4 +1,4 @@
-const numeros = [1, 35, 6, 54, 13,3, 24, "A"];
+const numeros = [1, 35, 6, 54, 13,3, 24];
 
 const mayoresA10 = numeros.filter((e) => e >  10);
 console.log("mayores a 10: " + mayoresA10);
