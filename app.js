@@ -1,4 +1,4 @@
-const numeros = [1, 35, 6, 54, 13,3, 24, "A"];
+const numeros = [1, 35, 6, 54, 13,3, 24];
 
 const mayoresA10 = numeros.filter((e) => e >  10);
 console.log("mayores a 10: " + mayoresA10);
@@ -14,7 +14,7 @@ console.log("nuevo array de letras: " + letras);
 console.log("nuevo array (concatenado): " + numerosConcatena);
 
 function nroMasGrande(array) {
-    let nroMasGrande = array[0];
+    let numeroMasGrande = array[0];
     for (let i = 1; i < array.length; i ++){
         if (array[i] > nroMasGrande ){
             nroMasGrande = array[i];
