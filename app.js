@@ -14,7 +14,7 @@ console.log("nuevo array de letras: " + letras);
 console.log("nuevo array (concatenado): " + numerosConcatena);
 
 function nroMasGrande(array) {
-    let nroMasGrande = array[0];
+    let numeroMasGrande = array[0];
     for (let i = 1; i < array.length; i ++){
         if (array[i] > nroMasGrande ){
             nroMasGrande = array[i];
