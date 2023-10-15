@@ -8,7 +8,10 @@ const numerosX10 = numeros.map((e) => e * 10);
 console.log("nuevo array: " + numerosX10);
 console.log("todos: "+ numeros);
 
-const letras = ["B", "C", "D", "F", "G", "H", "J"]
+const numerosSuma7 = numeros.map((e) => e + 7);
+console.log("nuevo array (suma 7): " + numerosSuma7);
+
+const letras = ["a", "b", "c", "d", "e", "f", "g"]
 const numerosConcatena = letras.map((letras, indice) => letras + numeros[indice]);
 console.log("nuevo array de letras: " + letras);
 console.log("nuevo array (concatenado): " + numerosConcatena);
